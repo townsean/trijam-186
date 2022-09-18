@@ -245,7 +245,7 @@ async function getRandomCountries(count) {
     let countries = await getCountries();
 
     // Loop until {count} unique indexes are found
-    while(indexes.length < count + 1) {
+    while(indexes.length < count) {
         let index = getRandomInt(0, countries.length);
 
         if(indexes.includes(index)) {
@@ -276,7 +276,6 @@ async function getCountries() {
             if(data) {
                 countries = data.countries;
             }
-            console.log(data)
         } else {
             throw response.statusText;
         }

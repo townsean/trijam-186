@@ -276,6 +276,90 @@
                     "assetUrl": "assets/countries/jonathan-borba-Lnb5nu98XJ4-unsplash.jpg"
                 }
             ]
+        },
+        {
+            "name": "Madagascar",
+            "images": [
+                {
+                    "sourceUrl": "https://unsplash.com/photos/yPSbirjJWzs",
+                    "assetUrl": "assets/countries/graphic-node-yPSbirjJWzs-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/KDETIIM8L_E",
+                    "assetUrl": "assets/countries/iako-randrianarivelo-KDETIIM8L_E-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/oOVkoXRTzZ4",
+                    "assetUrl": "assets/countries/duminda-perera-oOVkoXRTzZ4-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/LltVVoYNpIw",
+                    "assetUrl": "assets/countries/wilsan-u-LltVVoYNpIw-unsplash.jpg"
+                }
+            ]
+        },
+        {
+            "name": "France",
+            "images": [
+                {
+                    "sourceUrl": "https://unsplash.com/photos/mEfIhOTH27w",
+                    "assetUrl": "assets/countries/bruno-abatti-mEfIhOTH27w-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/SprV1eqNrqM",
+                    "assetUrl": "assets/countries/bastien-nvs-SprV1eqNrqM-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/GjYw5xyMI3w",
+                    "assetUrl": "assets/countries/gloria-villa-GjYw5xyMI3w-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/CB0Qrf8ib4I",
+                    "assetUrl": "assets/countries/ilnur-kalimullin-CB0Qrf8ib4I-unsplash.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Switzerland",
+            "images": [
+                {
+                    "sourceUrl": "https://unsplash.com/photos/eb8dmXNOGP4",
+                    "assetUrl": "assets/countries/patrick-robert-doyle-eb8dmXNOGP4-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/o6UVPje41Lg",
+                    "assetUrl": "assets/countries/leila-azevedo-o6UVPje41Lg-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/XxAR3uzYiZY",
+                    "assetUrl": "assets/countries/rico-reutimann-XxAR3uzYiZY-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/U3XmLUkFo3I",
+                    "assetUrl": "assets/countries/stephen-leonardi-U3XmLUkFo3I-unsplash.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Saudi Arabia",
+            "images": [
+                {
+                    "sourceUrl": "https://unsplash.com/photos/IOBIgKmjm1Y",
+                    "assetUrl": "assets/countries/haidan-IOBIgKmjm1Y-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/kUANvJwGN4M",
+                    "assetUrl": "assets/countries/abdulrhman-alkhnaifer-kUANvJwGN4M-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/KW-qmD8hOx4",
+                    "assetUrl": "assets/countries/akil-imran-KW-qmD8hOx4-unsplash.jpg"
+                },
+                {
+                    "sourceUrl": "https://unsplash.com/photos/I4B-IZ7cd-g",
+                    "assetUrl": "assets/countries/abdulrhman-alkhnaifer-I4B-IZ7cd-g-unsplash.jpg"
+                }
+            ]
         }
     ]    
 }
