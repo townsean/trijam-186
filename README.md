@@ -29,6 +29,7 @@ python3 -m http.server 8000
 
 * Vanilla JS
 * Visual Studio Code
+* [TinyPNG](https://tinypng.com/) for image compression
 
 ## Third Party Assets
 
