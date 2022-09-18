@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Well Travelled | Trijam #186</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sigmar+One&display=swap" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        
+    </head>
+    <body>
+        <header>
+            <a href="https://github.com/townsean/trijam-186">Well Travelled | Trijam #186</a>
+        </header>
+        <main>
+            <!-- Start Scene -->
+            <section id="start-scene">
+                <div class="scene">
+                    <div class="opening-logo">
+                        <h1>Well</h1>
+                        <img src="assets/spinning-globe.gif" alt="Spinning Globe">
+                        <h1>Travelled</h1>
+                    </div>
+                    <p class="info-paragraph">You have just returned from a trip <strong>around the world</strong>! As you review photos from the trip, can you correctly recall which <strong>countries</strong> you were in?</p>
+                    <button id="start-game-button" class="state-game-button">Start Game</button>
+                </div>
+            </section>
+            <!-- Game Scene -->
+            <section id="game-scene" class="hidden">
+                <div class="scene">
+                    <section id="game-stats">
+                        <section id="attempt-tracker"></section>
+                        <section id="round-tracker"></section>
+                    </section>
+                    <div class="image-viewer">
+                        <figure>
+                            <img src="assets/countries/jj-ying-9Qwbfa_RM94-unsplash.jpg">
+                            <figcaption>Image 1</figcaption>
+                        </figure>
+                    </div>
+                    <button class="state-game-button">Guess</button>
+                </div>
+            </section>
+            <!-- End Game Scene -->
+            <section id="end-scene" class="hidden">
+                <div class="scene">
+                    <button id="restart-game-button" class="state-game-button">Restart Game?</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a href="https://twitter.com/thecodingcouple">A game by Ashley <img src="favicon.ico"> | @thecodingcouple</a>
+        </footer>
+        <script type="module" src="scripts/main.js"></script>
+    </body>
+</html>
