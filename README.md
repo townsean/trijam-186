@@ -1,11 +1,15 @@
 # trijam-186
 Source code for Ashley's entry for Trijam #186. The theme is "I am a traveler."
 
-[Trijam](https://itch.io/jam/trijam-186) is a weekly game jam where the goal is to create a game in under 3 hours of development time.
+[Trijam](https://itch.io/jam/trijam-186) is a weekly game jam where the goal is to create a game in under 3 hours of development time. Well Travelled was completed in about 8 hours of active development time.
 
 ## Synopsis
 
-N/A
+In Well Travelled, you've just returned from a trip around the world! As you review photos from the trip, can you correctly recall which countries you were in?
+
+The objective of the game is to correctly identify which country is visible in the displayed photos. Try to guess all 5 countries correctly!
+
+![Well Travelled Gameplay](assets/well-travelled.gif)
 
 ## Project Setup
 
@@ -25,7 +29,6 @@ python3 -m http.server 8000
 
 * Vanilla JS
 * Visual Studio Code
-* [Color Hunt Palette](https://colorhunt.co/palette/1b243051557e816797d6d5a8)
 
 ## Third Party Assets
 
