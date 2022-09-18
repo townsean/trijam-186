@@ -59,18 +59,22 @@ figure,
     border-radius: 25px;
 }
 
-figure {
+figure,
+.guessing-section,
+#game-stats {
     width: 55vw;
-    height: 55vh;
+}
 
+figure {
+    height: 55vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 figure > img {
-
     max-width: 50vw;
     max-height: 50vh;
 }
@@ -108,7 +112,18 @@ figcaption {
 
 .image-viewer {
     position: relative;
-    padding-top: 75px;
+}
+
+#figure-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0, 0.9);
+    top: 7.5px;
+    left: 38.5px;
+    height: calc(100% - 20.5px);
+    width: calc(100% - 78.5px);
+    border-radius: 25px;
+    margin: 0;
+    color: white;
 }
 
 .scene {
@@ -141,10 +156,107 @@ figcaption {
     color: white;
 }
 
+.attempt-tracker {
+    border-radius: 50%;
+    background: radial-gradient(white, gray);
+    height: 25px;
+    width: 25px;
+    margin-right: 7.5px;
+}
+
+.attempt-tracker--incorrect {
+    background: radial-gradient(red, darkred);
+}
+
+.attempt-tracker--correct {
+    background: radial-gradient(lime, darkgreen);
+}
+
+.scene,
+#start-scene,
+#game-scene,
+#end-scene {
+    height: 100%;
+}
+
+#game-stats {
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#game-stats,
+#attempt-tracker {
+    display: flex;
+    flex-direction: row;
+}
+
+#round-tracker::before {
+    content: "Round "
+}
+
+#overlay-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#overlay-info h1 {
+    font-size: 3rem;
+    text-shadow: 4px 0 var(--space-star-color-primary);
+}
+
+#overlay-info h2 {
+    margin-top: 10%;
+}
+
+#overlay-info ul {
+    padding: 0;
+    margin: 0;
+}
+
+#guess-input {    
+    width: 100%;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+#guess-button {
+    font-size: 1rem;
+    border-radius: 0 25px 25px 0;
+    padding: 1rem;
+}
+
+.guessing-section {
+    background: linear-gradient(90deg, white 85%, var(--space-star-color-primary));
+    border-radius: 25px;
+    border: 2px solid var(--space-star-color-primary);
+    padding-left: 5px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#end-scene h2 {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 0 var(--space-star-color-primary)
+}
+
 @media (max-width: 700px) {
+    #game-stats,
+    .guessing-section,
     figure {
         width: 75vw;
-        height: 100%;
+    }
+
+    figure {
+        height: 50vh;
     }
 
     .opening-logo {
@@ -166,6 +278,9 @@ figcaption {
     .info-paragraph {
         font-size: 1.25rem;
         text-align: center;
+        padding: 1rem;
+        width: 80%;
+        height: auto;
     }
 
     .state-game-button {
@@ -176,5 +291,34 @@ figcaption {
         height: 50px;
         left: calc(37.5vw + 25px);
         top: 65px;
+    }
+
+    .scene,
+    #start-scene,
+    #game-scene,
+    #end-scene {
+        height: auto;
+    }
+
+    .attempt-tracker {
+        height: 15px;
+        width: 15px;
+    }
+
+    #overlay-info,
+    #overlay-info h1,
+    #overlay-info h2 {
+        font-size: 1rem;
+    }
+
+    #end-scene h2 {
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        margin: 25px;
+    }
+
+    .guessing-section {
+        background: linear-gradient(90deg, white 75%, var(--space-star-color-primary) 75%);
     }
 }

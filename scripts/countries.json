@@ -198,7 +198,7 @@
                 },
                 {
                     "sourceUrl": "https://unsplash.com/photos/hz4tKDvQHoo",
-                    "assetUrl": "/Users/agrenon/Development/trijam-186/assets/countries/alex-azabache-hz4tKDvQHoo-unsplash.jpg"
+                    "assetUrl": "assets/countries/alex-azabache-hz4tKDvQHoo-unsplash.jpg"
                 },
                 {
                     "sourceUrl": "https://unsplash.com/photos/OEQwFBIbB2k",
@@ -274,27 +274,6 @@
                 {
                     "sourceUrl": "https://unsplash.com/photos/Lnb5nu98XJ4",
                     "assetUrl": "assets/countries/jonathan-borba-Lnb5nu98XJ4-unsplash.jpg"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "images": [
-                {
-                    "sourceUrl": "",
-                    "assetUrl": ""
-                },
-                {
-                    "sourceUrl": "",
-                    "assetUrl": ""
-                },
-                {
-                    "sourceUrl": "",
-                    "assetUrl": ""
-                },
-                {
-                    "sourceUrl": "",
-                    "assetUrl": ""
                 }
             ]
         }

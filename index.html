@@ -33,21 +33,39 @@
             <section id="game-scene" class="hidden">
                 <div class="scene">
                     <section id="game-stats">
-                        <section id="attempt-tracker"></section>
+                        <section id="attempt-tracker">
+                        </section>
                         <section id="round-tracker"></section>
                     </section>
                     <div class="image-viewer">
                         <figure>
-                            <img src="assets/countries/jj-ying-9Qwbfa_RM94-unsplash.jpg">
-                            <figcaption>Image 1</figcaption>
+                            <img id="country-image">
+                            <figcaption id="country-image-caption"></figcaption>
                         </figure>
+                        <section id="figure-overlay" class="hidden">
+                            <div id="overlay-info">
+                                <h2>Guesses:</h2>
+                                <ul id="overlay-guesses">
+                                </ul>
+                                <h1 id="overlay-country-name"></h1>
+                            </div>
+                        </section>
                     </div>
-                    <button class="state-game-button">Guess</button>
+                    <section class="guessing-section">
+                        <input id="guess-input" type="text" placeholder="Type name of country or leave blank to pass">
+                        <button id="guess-button" class="state-game-button">Guess</button>
+                    </section>
                 </div>
             </section>
             <!-- End Game Scene -->
             <section id="end-scene" class="hidden">
                 <div class="scene">
+                    <div class="opening-logo">
+                        <h1>GAME</h1>
+                        <img src="assets/spinning-globe.gif" alt="Spinning Globe">
+                        <h1>OVER</h1>
+                    </div>
+                    <h2>You have correctly identified <span id="correct-guesses-span"></span>!</h3>
                     <button id="restart-game-button" class="state-game-button">Restart Game?</button>
                 </div>
             </section>
