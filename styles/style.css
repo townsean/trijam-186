@@ -324,6 +324,6 @@ figcaption {
     }
 
     .guessing-section {
-        background: linear-gradient(90deg, white 60%, var(--space-star-color-primary) 60%);
+        background: linear-gradient(90deg, white, var(--space-star-color-primary));
     }
 }
