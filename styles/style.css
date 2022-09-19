@@ -26,6 +26,11 @@ header {
     box-shadow: 5px 0 10px black;
 }
 
+header a {
+    color: white;
+    text-shadow: 2px 2px var(--space-background-color);
+}
+
 main {
     flex: 1;
 }

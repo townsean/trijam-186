@@ -92,6 +92,7 @@ function startRound(round, countries) {
 
         // Clear previous input
         guessInput.value = "";
+        guessInput.focus();
 
         // User guessed correctly, ending round
         if(isCorrectGuess) {
