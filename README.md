@@ -1,5 +1,5 @@
 # trijam-186
-Source code for Ashley's entry for Trijam #186. The theme is "I am a traveler."
+Source code for [Ashley's entry for Trijam #186](https://itch.io/jam/trijam-186/rate/1709080). The theme is "I am a traveler."
 
 [Trijam](https://itch.io/jam/trijam-186) is a weekly game jam where the goal is to create a game in under 3 hours of development time. Well Travelled was completed in about 8 hours of active development time.
 
